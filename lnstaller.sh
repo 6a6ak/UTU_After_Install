@@ -18,8 +18,8 @@ echo "   Server installer Menu!"
  echo "     3. Install Wifi-Driver"
  echo "     4. Install Python3"
  echo "     5. Install Franz"
+ echo "     6. Install Slack"
  echo
- echo "     6. Install ****"
  echo "     7. Install ****"
  echo "     8. Restart ****"   
  echo "          0. Exit"
@@ -32,8 +32,8 @@ echo "   Server installer Menu!"
  3) ./software/wifi-driver.sh;;
  4) ./software/python3.sh;;
  5) ./software/franz.sh;;
+ 6) ./software/slack.sh;;
  
- 6) ./software/install_composer.sh;;
  7) ./software/install_yarn.sh;;
  8) ./software/restart_apache.sh;;
  0) exit;;
