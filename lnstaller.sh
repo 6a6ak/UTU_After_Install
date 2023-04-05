@@ -17,8 +17,8 @@ echo "   Server installer Menu!"
  echo "     2. Install Chrome "
  echo "     3. Install Wifi-Driver"
  echo "     4. Install Python3"
+ echo "     5. Install Franz"
  echo
- echo "     5. Install ***"
  echo "     6. Install ****"
  echo "     7. Install ****"
  echo "     8. Restart ****"   
@@ -31,8 +31,8 @@ echo "   Server installer Menu!"
  2) ./software/chrome_installer.sh;;
  3) ./software/wifi-driver.sh;;
  4) ./software/python3.sh;;
+ 5) ./software/franz.sh;;
  
- 5) ./software/MonDB_installer.sh;;
  6) ./software/install_composer.sh;;
  7) ./software/install_yarn.sh;;
  8) ./software/restart_apache.sh;;
