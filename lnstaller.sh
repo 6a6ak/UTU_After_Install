@@ -31,7 +31,7 @@ echo "   Server installer Menu!"
  2) ./software/chrome_installer.sh;;
  3) ./software/wifi-driver.sh;;
  4) ./software/python3.sh;;
- echo
+ 
  5) ./software/MonDB_installer.sh;;
  6) ./software/install_composer.sh;;
  7) ./software/install_yarn.sh;;

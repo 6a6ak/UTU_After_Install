@@ -1,0 +1,1 @@
+sudo apt install bcmwl-kernel-source
