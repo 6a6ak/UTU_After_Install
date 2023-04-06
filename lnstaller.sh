@@ -19,8 +19,8 @@ echo "   Server installer Menu!"
  echo "     4. Install Python3"
  echo "     5. Install Franz"
  echo "     6. Install Slack"
+ echo "     7. Install Filezilla"
  echo
- echo "     7. Install ****"
  echo "     8. Restart ****"   
  echo "          0. Exit"
   read -p "     Option: " option
@@ -33,8 +33,8 @@ echo "   Server installer Menu!"
  4) ./software/python3.sh;;
  5) ./software/franz.sh;;
  6) ./software/slack.sh;;
+ 7) ./software/filezilla.sh;;
  
- 7) ./software/install_yarn.sh;;
  8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
