@@ -20,6 +20,8 @@ echo "   Server installer Menu!"
  echo "     5. Install Franz"
  echo "     6. Install Slack"
  echo "     7. Install Filezilla"
+ echo "     Unity for install Unity"
+ echo "     Openssl"
  echo
  echo "     8. Restart ****"   
  echo "          0. Exit"
@@ -34,7 +36,8 @@ echo "   Server installer Menu!"
  5) ./software/franz.sh;;
  6) ./software/slack.sh;;
  7) ./software/filezilla.sh;;
- 
+ Unity) ./software/unity/unity.sh;;
+ Openssl) ./software/unity/open_ssl_unity.sh;;
  8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
