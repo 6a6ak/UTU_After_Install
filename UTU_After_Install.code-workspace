@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "UTU_After_Install-1",
+			"path": "../UTU_After_Install-1"
 		}
 	],
 	"settings": {}
