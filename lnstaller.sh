@@ -13,7 +13,7 @@ echo "   Server installer Menu!"
 # Main loop
 
   # Menu options
-  Echo "Write the name of software to install"
+ echo "  Write the name of software to install"
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
  echo "     Python for Install Python3"
