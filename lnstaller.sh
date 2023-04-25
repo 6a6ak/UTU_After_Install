@@ -23,8 +23,9 @@ echo "   Server installer Menu!"
  echo "     Unity for install Unity"
  echo "     Openssl"
  echo "     Vmware for Install Vmware"
- echo "     InkScape for install InkScape
- echo
+ echo "     InkScape for install InkScape"
+ echo "     PhpStorm"
+ echo ""
  echo "     8. Restart ****"   
  echo "          0. Exit"
   read -p "     Option: " option
@@ -41,6 +42,7 @@ echo "   Server installer Menu!"
  Unity) ./software/unity/unity.sh;;
  Openssl) ./software/unity/open_ssl_unity.sh;;
  InkScape) ./inkscape.sh
+ PhpStorm) ./PhpStorm.sh
  8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
