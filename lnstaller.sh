@@ -13,6 +13,7 @@ echo "   Server installer Menu!"
 # Main loop
 
   # Menu options
+  Echo "Write the name of software to install"
  echo "     1. apt-update-upgrade"
  echo "     2. Install Chrome "
  echo "     3. Install Wifi-Driver"
@@ -25,6 +26,7 @@ echo "   Server installer Menu!"
  echo "     Vmware for Install Vmware"
  echo "     InkScape for install InkScape"
  echo "     PhpStorm"
+ echo "     Update for Update Drivers"
  echo ""
  echo "     8. Restart ****"   
  echo "          0. Exit"
@@ -41,9 +43,10 @@ echo "   Server installer Menu!"
  7) ./software/filezilla.sh;;
  Unity) ./software/unity/unity.sh;;
  Openssl) ./software/unity/open_ssl_unity.sh;;
- InkScape) ./inkscape.sh;;
- PhpStorm) ./PhpStorm.sh;;
- 8) ./software/restart_apache.sh;;
+ InkScape) ./software/inkscape.sh;;
+ PhpStorm) ./software/PhpStorm.sh;;
+ Update) ./software/ubuntu-driver.sh;;
+ #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   esac
