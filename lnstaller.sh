@@ -28,7 +28,7 @@ echo "   Server installer Menu!"
  echo "     IDE & ... [PhpStorm or VSCode]"
  echo "     Update for Update Drivers"
  echo ""
- echo "     8. Restart ****"   
+ #echo "     8. Restart ****"   
  echo "          0. Exit"
   read -p "     Option: " option
 
