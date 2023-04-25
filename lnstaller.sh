@@ -14,18 +14,17 @@ echo "   Server installer Menu!"
 
   # Menu options
   Echo "Write the name of software to install"
- echo "     1. apt-update-upgrade"
- echo "     2. Install Chrome "
- echo "     3. Install Wifi-Driver"
- echo "     4. Install Python3"
- echo "     5. Install Franz"
- echo "     6. Install Slack"
- echo "     7. Install Filezilla"
+ echo "     U-U for apt-update-upgrade"
+ echo "     Chrome for Install Chrome "
+ echo "     Python for Install Python3"
+ echo "     -Chat [Frenz,Slack]"
+ echo "     -IDE & ... [PhpStorm,VSCode]"
+ echo "     -Music [Spotify]"
+ echo "     Filezilla for install Filezilla"
  echo "     Unity for install Unity"
  echo "     Openssl"
  echo "     Vmware for Install Vmware"
  echo "     InkScape for install InkScape"
- echo "     IDE & ... [PhpStorm or VSCode]"
  echo "     Update for Update Drivers"
  echo ""
  #echo "     8. Restart ****"   
@@ -34,19 +33,20 @@ echo "   Server installer Menu!"
 
   # Execute option
   case $option in
- 1) ./software/update.sh;;
- 2) ./software/chrome_installer.sh;;
- 3) ./software/wifi-driver.sh;;
- 4) ./software/python3.sh;;
- 5) ./software/franz.sh;;
- 6) ./software/slack.sh;;
- 7) ./software/filezilla.sh;;
+ U-U) ./software/update.sh;;
+ Chrome) ./software/chrome_installer.sh;;
+
+ Python) ./software/python3.sh;;
+ Frenz) ./software/franz.sh;;
+ Slack) ./software/slack.sh;;
+ Filezilla) ./software/filezilla.sh;;
  Unity) ./software/unity/unity.sh;;
  Openssl) ./software/unity/open_ssl_unity.sh;;
  InkScape) ./software/inkscape.sh;;
  PhpStorm) ./software/PhpStorm.sh;;
  VSCode) ./software/vscode_installer.sh;;
  Update) ./software/ubuntu-driver.sh;;
+ Spotify) ./software/spotify.sh;;
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
