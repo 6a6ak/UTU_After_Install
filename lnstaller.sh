@@ -25,7 +25,7 @@ echo "   Server installer Menu!"
  echo "     Openssl"
  echo "     Vmware for Install Vmware"
  echo "     InkScape for install InkScape"
- echo "     PhpStorm"
+ echo "     IDE & ... [PhpStorm or VSCode]"
  echo "     Update for Update Drivers"
  echo ""
  echo "     8. Restart ****"   
@@ -45,6 +45,7 @@ echo "   Server installer Menu!"
  Openssl) ./software/unity/open_ssl_unity.sh;;
  InkScape) ./software/inkscape.sh;;
  PhpStorm) ./software/PhpStorm.sh;;
+ VSCode) ./software/vscode_installer.sh;;
  Update) ./software/ubuntu-driver.sh;;
  #8) ./software/restart_apache.sh;;
  0) exit;;
