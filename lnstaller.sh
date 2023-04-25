@@ -41,8 +41,8 @@ echo "   Server installer Menu!"
  7) ./software/filezilla.sh;;
  Unity) ./software/unity/unity.sh;;
  Openssl) ./software/unity/open_ssl_unity.sh;;
- InkScape) ./inkscape.sh
- PhpStorm) ./PhpStorm.sh
+ InkScape) ./inkscape.sh;;
+ PhpStorm) ./PhpStorm.sh;;
  8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
