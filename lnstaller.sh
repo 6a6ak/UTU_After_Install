@@ -17,6 +17,8 @@ echo "   Server installer Menu!"
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
  echo "     Python for Install Python3"
+ echo "     -Graphics [Gimp,InkScape]"
+
  echo "     -Chat [Frenz,Slack]"
  echo "     -IDE & ... [PhpStorm,VSCode]"
  echo "     -Music [Spotify]"
@@ -24,7 +26,6 @@ echo "   Server installer Menu!"
  echo "     Unity for install Unity"
  echo "     Openssl"
  echo "     Vmware for Install Vmware"
- echo "     InkScape for install InkScape"
  echo "     Update for Update Drivers"
  echo ""
  #echo "     8. Restart ****"   
@@ -43,6 +44,7 @@ echo "   Server installer Menu!"
  Unity) ./software/unity/unity.sh;;
  Openssl) ./software/unity/open_ssl_unity.sh;;
  InkScape) ./software/inkscape.sh;;
+ Gimp) ./software/gimp.sh;;
  PhpStorm) ./software/PhpStorm.sh;;
  VSCode) ./software/vscode_installer.sh;;
  Update) ./software/ubuntu-driver.sh;;
