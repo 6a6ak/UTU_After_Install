@@ -31,7 +31,9 @@ echo "   Server installer Menu!"
  echo ""
 echo -ne "${color}${footer}\033[0m\n"
  #echo "     8. Restart ****"   
+ echo
  echo "          0. Exit"
+ echo
   read -p "     Software Name: " option
   # Execute option
   case $option in
