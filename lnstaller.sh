@@ -3,9 +3,10 @@ clear
 while true; do
 
 text="\e[1m                  Ubuntu Installer              \e[0m"
+footer="\e[1m                                                \e[0m"
 color="\e[44m"
 width=$(tput cols)
-padding=$(( ($width - ${#text}) / 2 ))
+padding=$((($width - ${#text}) ))
 #tput cup 2 $padding
 echo -ne "${color}${text}\033[0m\n"
 
@@ -28,10 +29,10 @@ echo "   Server installer Menu!"
  echo "     Vmware for Install Vmware"
  echo "     Update for Update Drivers"
  echo ""
+echo -ne "${color}${footer}\033[0m\n"
  #echo "     8. Restart ****"   
  echo "          0. Exit"
-  read -p "     Option: " option
-
+  read -p "     Software Name: " option
   # Execute option
   case $option in
  U-U) ./software/update.sh;;
