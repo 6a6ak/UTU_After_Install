@@ -19,6 +19,7 @@ echo "   Server installer Menu!"
  echo "     Chrome for Install Chrome "
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
+ echo "     -Utility [Unrar]"
 
  echo "     -Chat [Frenz,Slack]"
  echo "     -IDE & ... [PhpStorm,VSCode]"
@@ -39,7 +40,7 @@ echo -ne "${color}${footer}\033[0m\n"
   case $option in
  U-U) ./software/update.sh;;
  Chrome) ./software/chrome_installer.sh;;
-
+ Unrar)  ./software/unrar.sh;;
  Python) ./software/python3.sh;;
  Frenz) ./software/franz.sh;;
  Slack) ./software/slack.sh;;
