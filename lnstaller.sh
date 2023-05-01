@@ -20,6 +20,7 @@ echo "   Server installer Menu!"
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar]"
+ echo "     -Network [Ansible]"
 
  echo "     -Chat [Frenz,Slack]"
  echo "     -IDE & ... [PhpStorm,VSCode]"
@@ -53,6 +54,7 @@ echo -ne "${color}${footer}\033[0m\n"
  VSCode) ./software/vscode_installer.sh;;
  Update) ./software/ubuntu-driver.sh;;
  Spotify) ./software/spotify.sh;;
+ Ansible) ./software/ansible.sh;;
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
