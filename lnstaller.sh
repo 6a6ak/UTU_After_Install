@@ -20,7 +20,8 @@ echo "   Server installer Menu!"
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar]"
- echo "     -Network [Ansible]"
+ echo "     -Server [Ansible]"
+ echo "     -Soft Center [Softcenter]"
 
  echo "     -Chat [Frenz,Slack]"
  echo "     -IDE & ... [PhpStorm,VSCode]"
@@ -55,6 +56,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Update) ./software/ubuntu-driver.sh;;
  Spotify) ./software/spotify.sh;;
  Ansible) ./software/ansible.sh;;
+ Softcenter) ./software/software-center.sh;;
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
