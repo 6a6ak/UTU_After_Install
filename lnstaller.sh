@@ -51,6 +51,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Openssl) ./software/unity/open_ssl_unity.sh;;
  InkScape) ./software/inkscape.sh;;
  Gimp) ./software/gimp.sh;;
+ Vmware) ./software/vmware.sh;;
  PhpStorm) ./software/PhpStorm.sh;;
  VSCode) ./software/vscode_installer.sh;;
  Update) ./software/ubuntu-driver.sh;;
