@@ -58,6 +58,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Spotify) ./software/spotify.sh;;
  Ansible) ./software/ansible.sh;;
  Softcenter) ./software/software-center.sh;;
+ 
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
