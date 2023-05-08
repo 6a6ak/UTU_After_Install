@@ -62,6 +62,7 @@ echo -ne "${color}${footer}\033[0m\n"
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
+    echo "__________________________________________________________________"
   esac
 done
 
