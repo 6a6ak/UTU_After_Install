@@ -24,7 +24,7 @@ echo "   Server installer Menu!"
  echo "     -Soft Center [Softcenter]"
 
  echo "     -Chat [Frenz,Slack]"
- echo "     -IDE & ... [PhpStorm,VSCode]"
+ echo "     -IDE & ... [PhpStorm,VSCode, Notepadqq]"
  echo "     -Music [Spotify]"
  echo "     Filezilla for install Filezilla"
  echo "     Unity for install Unity"
@@ -58,7 +58,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Spotify) ./software/spotify.sh;;
  Ansible) ./software/ansible.sh;;
  Softcenter) ./software/software-center.sh;;
- 
+ Notepadqq) ./software/notepadqq.sh;;
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
