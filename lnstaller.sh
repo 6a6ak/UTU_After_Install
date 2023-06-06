@@ -10,7 +10,7 @@ padding=$((($width - ${#text}) ))
 #tput cup 2 $padding
 echo -ne "${color}${text}\033[0m\n"
 
-echo "   Server installer Menu!"
+echo "  "
 # Main loop
 
   # Menu options
