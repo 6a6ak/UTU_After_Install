@@ -21,6 +21,7 @@ echo "   Server installer Menu!"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar]"
  echo "     -Server [Ansible]"
+ echo "     -Network [Angry]"
  echo "     -Soft Center [Softcenter]"
 
  echo "     -Chat [Frenz,Slack]"
@@ -59,6 +60,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Ansible) ./software/ansible.sh;;
  Softcenter) ./software/software-center.sh;;
  Notepadqq) ./software/notepadqq.sh;;
+ Angry) ./software/angry.sh;;
  #8) ./software/restart_apache.sh;;
  0) exit;;
     *) echo "Invalid option.";;
