@@ -14,7 +14,7 @@ echo "   Server installer Menu!"
 # Main loop
 
   # Menu options
- echo "  Write the name of software to install"
+ echo "  Type the name of software to install"
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
  echo "     Python for Install Python3"
@@ -22,6 +22,7 @@ echo "   Server installer Menu!"
  echo "     -Utility [Unrar]"
  echo "     -Server [Ansible]"
  echo "     -Network [Angry]"
+ echo "           +Angry IP SCanner"
  echo "     -Soft Center [Softcenter]"
 
  echo "     -Chat [Frenz,Slack]"
