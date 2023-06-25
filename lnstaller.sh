@@ -19,7 +19,7 @@ echo "  "
  echo "     Chrome for Install Chrome "
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
- echo "     -Utility [Unrar]"
+ echo "     -Utility [Unrar, Indicator-multiload]"
  echo "     -Server [Ansible]"
  echo "     -Network [Angry]"
  echo "           +Angry IP SCanner"
@@ -62,7 +62,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Softcenter) ./software/software-center.sh;;
  Notepadqq) ./software/notepadqq.sh;;
  Angry) ./software/angry.sh;;
- #8) ./software/restart_apache.sh;;
+ Indicator-multiload) ./software/multiload.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   
