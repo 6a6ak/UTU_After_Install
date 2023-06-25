@@ -20,6 +20,7 @@ echo "  "
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar, Indicator-multiload]"
+ echo "     -Downloader [Uget]"
  echo "     -Server [Ansible]"
  echo "     -Network [Angry]"
  echo "           +Angry IP SCanner"
@@ -63,6 +64,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Notepadqq) ./software/notepadqq.sh;;
  Angry) ./software/angry.sh;;
  Indicator-multiload) ./software/multiload.sh;;
+ Uget) ./software/uget.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   
