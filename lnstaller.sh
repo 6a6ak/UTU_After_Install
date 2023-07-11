@@ -20,7 +20,7 @@ echo "  "
  echo "     Git for Install GIT
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
- echo "     -Utility [Unrar, Indicator-multiload]"
+ echo "     -Utility [Unrar, Indicator-multiload, CopyQ, Font]"
  echo "     -Downloader [Uget]"
  echo "     -Server [Ansible]"
  echo "     -Network [Angry]"
@@ -67,6 +67,9 @@ echo -ne "${color}${footer}\033[0m\n"
  Indicator-multiload) ./software/multiload.sh;;
  Uget) ./software/uget.sh;;
  Git) ./software/git.sh;;
+ CopyQ) ./software/copyQ.sh;;
+ Font) ./software/font.sh;;
+
  0) exit;;
     *) echo "Invalid option.";;
   
