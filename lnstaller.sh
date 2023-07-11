@@ -17,7 +17,7 @@ echo "  "
  echo "  Type the name of software to install"
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
- echo "     Git for Install GIT
+ echo "     Git for Install GIT"
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar, Indicator-multiload, CopyQ, Font]"
