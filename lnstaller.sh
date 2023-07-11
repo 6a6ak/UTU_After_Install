@@ -17,6 +17,7 @@ echo "  "
  echo "  Type the name of software to install"
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
+ echo "     Git for Install GIT
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar, Indicator-multiload]"
@@ -65,6 +66,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Angry) ./software/angry.sh;;
  Indicator-multiload) ./software/multiload.sh;;
  Uget) ./software/uget.sh;;
+ Git) ./software/git.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   
