@@ -15,12 +15,13 @@ echo "  "
 
   # Menu options
  echo "  Type the name of software to install"
+ echo "     Help for read instruction of options."
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
  echo "     Git for Install GIT"
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
- echo "     -Utility [Unrar, Indicator-multiload, CopyQ]"
+ echo "     -Utility [Unrar, Indicator-multiload, CopyQ, GDidks]"
  echo "     -Downloader [Uget]"
  echo "     -Server [Ansible]"
  echo "     -Network [Angry]"
@@ -68,6 +69,8 @@ echo -ne "${color}${footer}\033[0m\n"
  Uget) ./software/uget.sh;;
  Git) ./software/git.sh;;
  CopyQ) ./software/copyQ.sh;;
+ GDisks) ./software/Gnome-Disks.sh;;
+ Help) ./software/Help.sh;;
  #Font) ./software/font.sh;;
 
  0) exit;;
