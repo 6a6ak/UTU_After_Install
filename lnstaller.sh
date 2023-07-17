@@ -19,6 +19,7 @@ echo "  "
  echo "     U-U for apt-update-upgrade"
  echo "     Chrome for Install Chrome "
  echo "     Git for Install GIT"
+ echo "     Curl for install Curl"
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
  echo "     -Utility [Unrar, Indicator-multiload, CopyQ, GDidks]"
@@ -70,6 +71,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Git) ./software/git.sh;;
  CopyQ) ./software/copyQ.sh;;
  GDisks) ./software/Gnome-Disks.sh;;
+ Curl) ./software/curl.sh;;
  Help) ./software/Help.sh;;
  #Font) ./software/font.sh;;
 
