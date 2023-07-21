@@ -22,6 +22,7 @@ echo "  "
  echo "     Curl for install Curl"
  echo "     Python for Install Python3"
  echo "     -Graphics [Gimp,InkScape]"
+ echo "     -Remote [VNC,]"
  echo "     -Utility [Unrar, Indicator-multiload, CopyQ, GDidks]"
  echo "     -Downloader [Uget]"
  echo "     -Server [Ansible]"
@@ -74,6 +75,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Curl) ./software/curl.sh;;
  Help) ./software/Help.sh;;
  #Font) ./software/font.sh;;
+ VNC) ./software/vnc.sh;;
 
  0) exit;;
     *) echo "Invalid option.";;
