@@ -15,9 +15,10 @@ echo "  "
 
   # Menu options
  echo "  Type the name of software to install"
+ echo "  ____________________________________"
+ echo
  echo "     Help for read instruction of options."
  echo "     U-U for apt-update-upgrade"
- echo "     Chrome for Install Chrome "
  echo "     Git for Install GIT"
  echo "     Curl for install Curl"
  echo "     Python for Install Python3"
@@ -32,6 +33,7 @@ echo "  "
 
  echo "     -Chat [Frenz,Slack]"
  echo "     -IDE & ... [PhpStorm,VSCode, Notepadqq]"
+ echo "     -Browser [Chrome, Edge, Firefox]"
  echo "     -Music [Spotify]"
  echo "     Filezilla for install Filezilla"
  echo "     Unity for install Unity"
@@ -76,7 +78,7 @@ echo -ne "${color}${footer}\033[0m\n"
  Help) ./software/Help.sh;;
  #Font) ./software/font.sh;;
  VNC) ./software/vnc.sh;;
-
+ Edge) ./software/edge.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   
