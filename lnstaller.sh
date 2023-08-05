@@ -79,6 +79,7 @@ echo -ne "${color}${footer}\033[0m\n"
  #Font) ./software/font.sh;;
  VNC) ./software/vnc.sh;;
  Edge) ./software/edge.sh;;
+ Firefox) ./software/firefox.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   
