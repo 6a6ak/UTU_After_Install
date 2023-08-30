@@ -32,7 +32,7 @@ echo "  "
  echo "     -Soft Center [Softcenter]"
 
  echo "     -Chat [Frenz,Slack]"
- echo "     -IDE & ... [PhpStorm,VSCode, Notepadqq]"
+ echo "     -IDE & ... [PhpStorm,VSCode, Notepadqq, Gedit]"
  echo "     -Browser [Chrome, Edge, Firefox]"
  echo "     -Music [Spotify]"
  echo "     Filezilla for install Filezilla"
@@ -80,6 +80,7 @@ echo -ne "${color}${footer}\033[0m\n"
  VNC) ./software/vnc.sh;;
  Edge) ./software/edge.sh;;
  Firefox) ./software/firefox.sh;;
+ Gedit) ./software/gedit.sh;;
  0) exit;;
     *) echo "Invalid option.";;
   
